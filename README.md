@@ -41,6 +41,34 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Running Unit Tests
+
+This project uses Playwright for end-to-end testing. To run the unit tests, follow these steps:
+
+1. Make sure you have Playwright installed. If not, you can install it with:
+
+```bash
+npm install -D @playwright/test
+# or
+yarn add -D @playwright/test
+```
+
+2. Run the tests using the following command:
+
+```bash
+npx playwright test
+```
+
+This will run all the tests in the `tests` directory.
+
+3. To view the test results in a browser, you can use:
+
+```bash
+npx playwright show-report
+```
+
+For more information on using Playwright, check out the [Playwright documentation](https://playwright.dev/docs/intro).
+
 ## Learn More
 
 To learn more about the technologies used in this project:
