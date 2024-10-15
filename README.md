@@ -13,7 +13,7 @@ The Asteroid Information App fetches data from NASA's Near Earth Object Web Serv
 - See details such as the asteroid's name, estimated diameter, potential hazard status, and next close approach date
 - Save favorite asteroids for quick reference
 
-![Asteroid Details](./screenshots/asteroid-details.png)
+![Asteroid Details](./screenshots/detail-page.png)
 
 ## API Importance
 
